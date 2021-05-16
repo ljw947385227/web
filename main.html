@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complete Responsive Travel Website Design Tutorial</title>
+
+    <!-- font awesome cdn file link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/ljt.css">
+
+
+</head>
+<body>
+
+<!-- header section starts  -->
+
+<header>
+
+<a href="#" class="logo">旅行 <span>.</span></a>
+
+<nav class="navbar">
+    <ul>
+        <li><a data-scroll="home" href="#home" class="active">主页</a></li>
+        <li><a data-scroll="feature" href="travel%20place.html" target="_blank">景点</a></li>
+        <li><a data-scroll="about" href="#about">关于</a></li>
+        <li><a data-scroll="gallery" href="#gallery">相册</a></li>
+        <li><a data-scroll="contact" href="#contact">联系我们</a></li>
+        <li><a data-scroll="contact" href="" target="_blank">登录</a></li>
+
+    </ul>
+</nav>
+
+<div class="fas fa-bars"></div>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+<div class="video">
+    <video src="images/video.mp4" loop muted autoplay></video>
+</div>
+
+<div class="content">
+    <h1>旅游, <br> 分类.</h1>
+    <p>九寨天下奇，峨眉天下秀，青城天下幽，剑门天下险。</p>
+</div>
+
+<div class="form-container">
+    <form action="">
+
+        <h3>搜索目的地</h3>
+
+        <span>目的地</span>
+        <label>
+            <input type="text" placeholder="想去的地方">
+        </label>
+
+        <span>人数</span>
+        <label>
+            <input type="number" placeholder="旅行人数">
+        </label>
+
+        <span>出发日期</span>
+        <label>
+            <input type="date">
+        </label>
+
+        <span>返回日期</span>
+        <label>
+            <input type="date">
+        </label>
+
+        <input type="submit" value="search">
+
+    </form>
+</div>
+
+</section>
+
+<!-- home section ends -->
+
+<!-- feature section starts  -->
+<!--
+<section class="feature" id="feature" style="background-image: url(images/review-bg.jpg)">
+
+<h1 class="heading"><span>旅</span>游 <span>景</span>点</h1>
+
+<div class="card-container">
+
+    <div class="card">
+        <span class="discount">-35%</span>
+        <img src="images/card1.jpg" alt="">
+        <div class="content">
+            <h3 class="title">九寨沟</h3>
+            <p>世界自然遗产、国家重点风景名胜区、国家AAAAA级旅游景区、国家级自然保护区、国家地质公园、世界生物圈保护区网络，是中国第一个以保护自然风景为主要目的的自然保护区。</p>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <a href="#"><button class="btn">查看攻略</button></a>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="images/card2.jpg" alt="">
+        <div class="content">
+            <h3 class="title">大熊猫基地</h3>
+            <p>成都大熊猫繁育研究基地，是中国政府实施大熊猫等濒危野生动物迁地保护工程的主要研究基地之一，国家AAAA级旅游景区。是我国乃至全球知名的集大熊猫科研繁育、保护教育、教育旅游、熊猫文化建设为一体的大熊猫等珍稀濒危野生动物保护研究机构。</p>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <a href="#"><button class="btn">查看攻略</button></a>
+        </div>
+    </div>
+
+    <div class="card">
+        <span class="discount">-45%</span>
+        <img src="images/card3.jpg" alt="">
+        <div class="content">
+            <h3 class="title">峨眉山</h3>
+            <p>峨眉天下秀，峨眉山因其风景秀丽，如女子的峨眉细长而得名，金顶是峨眉的象征，而在金顶看云海和日出也是一绝，吸引了无数游客，如今还有万佛顶、金佛顶、接引殿、洗象池等著名佛教建筑，是佛教的四大名山之一。</p>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <a href="#"><button class="btn">查看攻略</button></a>
+        </div>
+    </div>
+
+</div>
+
+</section>
+-->
+
+<!-- feature section ends -->
+
+<!-- about section starts  -->
+
+
+<section id="about" class="about" style="background-image: url(images/img3.jpg)">
+
+<h1 class="heading"><span>旅</span>行 <span>攻</span>略</h1>
+
+<div class="row">
+
+    <div class="image">
+        <img src="images/1.jpg" alt="">
+    </div>
+
+    <div class="content">
+        <h3>旅游攻略?</h3>
+        <p>路线,日期规划,美食,我们都帮你安排好了.</p><br>
+        <p>享受旅游,不必考虑其他事情,带好行李,即刻出发.</p>
+        <a href="#"><button class="btn btn1">选择攻略</button></a>
+        <a href="#"><button class="btn">开始旅途</button></a>
+    </div>
+
+</div>
+
+</section>
+
+
+<!-- about section ends -->
+
+<!-- gallery section starts  -->
+
+<section id="gallery" class="gallery" style="background-image: url(images/img4.jpg)">
+
+<h1 class="heading">相册</h1>
+
+<div class="box-container">
+
+    <div class="box">
+        <img src="images/img1.jpg" alt="">
+        <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-share"></a>
+            <a href="#" class="fas fa-search"></a>
+        </div>
+    </div>
+
+    <div class="box">
+        <img src="images/img2.jpg" alt="">
+        <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-share"></a>
+            <a href="#" class="fas fa-search"></a>
+        </div>
+    </div>
+
+    <div class="box">
+        <img src="images/img3.jpg" alt="">
+        <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-share"></a>
+            <a href="#" class="fas fa-search"></a>
+        </div>
+    </div>
+
+    <div class="box">
+        <img src="images/img4.jpg" alt="">
+        <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-share"></a>
+            <a href="#" class="fas fa-search"></a>
+        </div>
+    </div>
+
+    <div class="box">
+        <img src="images/img5.jpg" alt="">
+        <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-share"></a>
+            <a href="#" class="fas fa-search"></a>
+        </div>
+    </div>
+
+    <div class="box">
+        <img src="images/img6.jpg" alt="">
+        <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-share"></a>
+            <a href="#" class="fas fa-search"></a>
+        </div>
+    </div>
+
+</div>
+
+</section>
+
+
+
+
+
+<section id="contact" class="contact">
+
+<h1 class="heading"><span>联</span>系我们</h1>
+
+<iframe src="https://map.baidu.com/@11585280.82,3555907.48,12z" width="100%" height="300" frameborder="0" style="border:0; outline:none;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+
+<div class="row">
+
+
+
+
+
+</div>
+
+</section>
+
+<!-- contact section ends -->
+
+<section class="newsletter">
+
+<h1>旅行攻略</h1>
+
+<p>您可以输入您的邮箱订阅我们最新的旅游信息.</p>
+
+<form action="">
+    <label>
+        <input type="email" placeholder="输入您的邮箱">
+    </label>
+    <input type="submit" value="订阅">
+</form>
+
+</section>
+
+<section class="footer">
+
+<h1 class="credit">旅游页面 <span>Copyright © 2001-2020</span> | all rights reserved.</h1>
+
+<div class="icons">
+    <a href="#" class="fab fa-facebook-f"></a>
+    <a href="#" class="fab fa-twitter"></a>
+    <a href="#" class="fab fa-instagram"></a>
+    <a href="#" class="fab fa-github"></a>
+</div>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- jquery cdn link  -->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="js/main.js"></script>
+
+
+    
+</body>
+</html>
