@@ -147,6 +147,37 @@ div.card__href{
 }
 div.card__href:hover{
     background-color: #0098a1;
-
 }
 
+div.ems_top{
+    width:100%;
+    height: 200px;
+}
+div.ems_mid{
+    width: 80%;
+
+    position: center;
+}
+div.ems_bottom{
+    width: 100%;
+    height: 150px;
+}
+div.ems_comment_href{
+    position: static;
+    width: 100px;
+    height: 25px;
+    background-color: #f3f0f0;
+    font-size: 20px;
+    bottom: 0;
+    top:0;
+
+}
+div.ems_comment_href:hover{
+    animation: light 2s infinite normal;
+}
+@keyframes light {
+from{background-color: #9fdfe3
+}
+    to{background-color: #9fdfe3
+    }
+}
